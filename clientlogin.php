@@ -100,7 +100,7 @@ if(isset($_SESSION['login_client'])){
                                     <a href="customerlogin.php">Customer</a>
                                 </li>
                                 <li>
-                                    <a href="#"> FAQ </a>
+                                    <a href="faq/index.php"> FAQ </a>
                                 </li>
                             </ul>
                         </div>
@@ -156,7 +156,7 @@ if(isset($_SESSION['login_client'])){
                             <label style="margin-left: 5px;color: red;"><span> <?php echo $error;  ?> </span></label>
                             <div class="row">
                                 <div class="form-group col-xs-4">
-                                    <button class="btn btn-primary" name="submit" type="submit" value=" Login ">Submit</button>
+                                    <button class="btn btn-primary fa fa-sign-in" name="submit" type="submit" value=" Login "> Login</button>
 
                                 </div>
 

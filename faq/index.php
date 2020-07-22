@@ -79,10 +79,11 @@
                                 <a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_customer']; ?></a>
                             </li>
                             <ul class="nav navbar-nav">
-                                <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Garagge <span class="caret"></span> </a>
+                                <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Car Bookings <span class="caret"></span> </a>
                                     <ul class="dropdown-menu">
+                                        <li> <a href="/carproject/bookcar.php">Book Car</a></li>
                                         <li> <a href="/carproject/prereturncar.php">Return Now</a></li>
-                                        <li> <a href="/carproject/mybookings.php"> My Bookings</a></li>
+                                        <li> <a href="/carproject/mybookings.php"> Previous Bookings</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -160,7 +161,7 @@
                 <li>
                     <a class="cd-faq-trigger" href="#0">Is there a fee if i return the car after the due date?</a>
                     <div class="cd-faq-content">
-                        <p>Yes, we charge Rs.200/- day after the due date.</p>
+                        <p>Yes, we charge Rs.1000/- day after the due date.</p>
                     </div>
                     <!-- cd-faq-content -->
                 </li>
@@ -232,7 +233,7 @@
                 <li>
                     <a class="cd-faq-trigger" href="#0">How can i pay for my chauffeur services?</a>
                     <div class="cd-faq-content">
-                        <p>Car Rental gladly accepts MasterCard, Visa, and checks. We also PayTm.</p>
+                        <p>Car Rental gladly accepts MasterCard, Visa, and checks.</p>
                     </div>
                     <!-- cd-faq-content -->
                 </li>
@@ -270,9 +271,9 @@
                         </div>
                     </div>
                     <input class="w3-input w3-border" type="text" placeholder="Question" required name="message">
-                    <button class="w3-button w3-black w3-right w3-section" type="submit">
-                <i class="fa fa-paper-plane"></i> SEND QUESTION
-              </button>
+                    <button class="w3-button w3-black w3-right w3-section" type="submit" name="submit">
+                         <i class="fa fa-paper-plane"></i> ASK QUESTION
+                    </button>
                 </form>
             </div>
         </div>

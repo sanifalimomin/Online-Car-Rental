@@ -175,7 +175,7 @@ $conn->close();
             </select>
           </div>
             <label style="margin-left: 5px;color: red;"><span> <?php echo $error;  ?> </span></label>
-           <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right"> Add Driver</button>   
+           <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right fa fa-plus-square"> Add Driver</button>   
 
         </form>
       </div>
@@ -223,7 +223,7 @@ if (mysqli_num_rows($result) > 0) {
       <td><?php echo $row["driver_phone"]; ?></td>
       <td><?php echo $row["driver_address"]; ?></td>
       <td><?php echo $row["driver_availability"]; ?></td>
-      <td><a class="btn btn-primary" href="enterdriver.php?rem=<?php echo $row['driver_id'] ?>" role="button"> Remove Driver</a></td>
+      <td><a class="btn btn-primary fa fa-minus-square" href="enterdriver.php?rem=<?php echo $row['driver_id'] ?>" role="button">  Remove Driver</a></td>
     </tr>
   </tbody>
   

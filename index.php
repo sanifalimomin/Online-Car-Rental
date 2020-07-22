@@ -73,7 +73,7 @@ $conn = Connect();
                         <a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_customer']; ?></a>
                     </li>
                     <ul class="nav navbar-nav">
-            <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Garagge <span class="caret"></span> </a>
+            <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Car Bookings <span class="caret"></span> </a>
                 <ul class="dropdown-menu">
                <li> <a href="bookcar.php">Book Car</a></li>     
               <li> <a href="prereturncar.php">Return Car</a></li>
@@ -210,7 +210,7 @@ $conn = Connect();
                         </div>
                     </div>
                     <input class="w3-input w3-border" type="text" placeholder="Message" required name="message">
-                    <button class="w3-button w3-black w3-right w3-section" type="submit">
+                    <button class="w3-button w3-black w3-right w3-section" type="submit" name="submit">
                 <i class="fa fa-paper-plane"></i> SEND MESSAGE
               </button>
                 </form>

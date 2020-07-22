@@ -88,7 +88,7 @@
                                     <a href="customerlogin.php">Customer</a>
                                 </li>
                                 <li>
-                                    <a href="#"> FAQ </a>
+                                    <a href="faq/index.php"> FAQ </a>
                                 </li>
                             </ul>
                         </div>
@@ -196,7 +196,7 @@
 
                         <div class="row">
                             <div class="form-group col-xs-4">
-                                <button class="btn btn-primary" type="submit">Submit</button>
+                                <button class="btn btn-primary fa fa-user-plus" type="submit"> Sign Up</button>
                             </div>
 
                         </div>

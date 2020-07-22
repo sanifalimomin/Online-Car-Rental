@@ -164,7 +164,7 @@ if (!$success){
 }
 else{
     $email=$client_email;
-    $url="http://localhost/carproject/verify_email.php?cd=cu".$pass_code;
+    $url="http://localhost/carproject/verify_email.php?cd=cl".$pass_code;
     $subject="Email Verification";
     $body="<div><h1>Email Verification</h1><h2>" . $client_username. "</h2>,<br><br><h3>Click the <a href='".$url."'>Link</a> to Verify Email</h3><br><br>Regards,<br> Admin, Car Rental.</div>";
     $altbody=$client_username. " , Click this link to Verify Email". $url. "Regards, Admin, Car Rental.";

@@ -211,10 +211,10 @@ $conn->close();
           </div>
 
           <div class="form-group">
-            <input name="uploadedimage" type="file">
+            <input  name="uploadedimage" type="file" placeholder="Car Picture">
           </div>
           <label style="margin-left: 5px;color: red;"><span> <?php echo $error;  ?> </span></label>
-          <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right"> Add car</button>    
+          <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right fa fa-plus-square"> Add car</button>    
         </form>
       </div>
     </div>
@@ -266,7 +266,7 @@ if (mysqli_num_rows($result) > 0) {
       <td><?php echo $row["ac_price_per_day"]; ?></td>
       <td><?php echo $row["non_ac_price_per_day"]; ?></td>
       <td><?php echo $row["car_availability"]; ?></td>
-      <td><a class="btn btn-primary" href="entercar.php?rem=<?php echo $row['car_id'] ?>" role="button"> Remove Car</a></td>
+      <td><a class="btn btn-primary fa fa-minus-square" href="entercar.php?rem=<?php echo $row['car_id'] ?>" role="button">  Remove Car</a></td>
     </tr>
   </tbody>
   <?php } ?>
